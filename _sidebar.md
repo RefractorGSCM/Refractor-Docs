@@ -1,0 +1,2 @@
+-   [Home](/)
+-   [Permissions](permissions/overview.md)
