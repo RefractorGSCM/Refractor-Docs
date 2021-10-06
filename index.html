@@ -34,6 +34,22 @@
             .sidebar-nav ul li p {
                 margin-bottom: 0;
             }
+
+            code.language-bash,
+            code.lang-bash {
+                padding: 1.7em 1.5em 1.5em 2.5em !important;
+                position: relative;
+            }
+
+            code.language-bash::before,
+            code.lang-bash::before {
+                content: "$";
+                display: block;
+                position: absolute;
+                left: 1em;
+                user-select: none;
+                color: var(--mono-tint1);
+            }
         </style>
     </head>
     <body>
