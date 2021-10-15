@@ -1,3 +1,5 @@
+**Refractor**
+
 -   [Introduction](/#refractor)
 
     -   [About Refractor](/#refractor)
@@ -7,7 +9,13 @@
 
 -   [Installation](/#refractor)
 
-    -   [Requirements](/installation/requirements)
-    -   [Docker](/installation/docker)
-    -   [After Install](/installation/post_install)
-    -   [Minecraft Setup](/installation/minecraft)
+    -   [Requirements](/installation/requirements?id=requirements)
+    -   [Docker](/installation/docker?id=installation-docker)
+    -   [After Install](/installation/post_install?id=after-install)
+    -   [Minecraft Setup](/installation/minecraft?id=minecraft-server-setup)
+
+-   [User Management](/#refractor)
+
+    -   [Permissions Overview](/users/permissions?id=permissions-overview)
+    -   [Group Management](/users/groups?id=group-management)
+    -   [User Management](/users/users?id=user-management)
