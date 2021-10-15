@@ -22,6 +22,8 @@ Note the `m` after `{{DURATION}}`. This is because Refractor records durations i
 
 Once you have this setup, you can test it out by logging a ban for yourself on Refractor and then attempting to join the server. After a few seconds, it should ban you for the correct period of time.
 
+![Minecraft settings page](/images/minecraft_settings.png)
+
 ## Setup Complete
 
 Your Minecraft server should now be completely ready to use with Refractor. Enjoy!

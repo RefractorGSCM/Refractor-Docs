@@ -2,6 +2,8 @@
 
 If your deployment of Refractor was successful, you should see a login screen when you navigate to your domain name. If you see this, congratulations! Refractor was deployed successfully.
 
+![Login Page](/images/login_page.png)
+
 Take a look at the sections below to learn what to do next.
 
 ## First Login
@@ -16,9 +18,13 @@ Once you've set your password, you should be redirected to a page telling you to
 
 Click on the "Servers" tab to view the server list. You should be prompted to add a server.
 
+![Empty server page](/images/servers_page1.png)
+
 Select the correct game, enter a name and the server's RCON credentials and then click "Add Server". If this was successful, the modal should close. Once this happens, reload the page and you should see your server in the list. If the RCON information provided was correct, the watchdog will automatically establish connection to your server in a moment.
 
 Congratulations! Refractor is now moderating your first server. If you have other servers in your community, you can add them using the same method.
+
+![Servers page with servers](/images/servers_page3.png)
 
 ## Note for Minecraft Servers
 
