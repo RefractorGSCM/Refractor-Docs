@@ -8,3 +8,6 @@
 -   [Installation](/#refractor)
 
     -   [Requirements](/installation/requirements)
+    -   [Docker](/installation/docker)
+    -   [After Install](/installation/post_install)
+    -   [Minecraft Setup](/installation/minecraft)

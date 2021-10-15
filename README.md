@@ -36,10 +36,10 @@ Currently, only Mordhau and Minecraft are supported.
 
 Because every game is designed differently, with varying levels of support for things like RCON, not all features are available across all games. Refer to the table below to see what's supported and what's not.
 
-| Game      | Live player list      | Infraction logging    | Live two-way chat     |
-| --------- | --------------------- | --------------------- | --------------------- |
-| Mordhau   | <span class="check"/> | <span class="check"/> | <span class="check"/> |
-| Minecraft | <span class="check"/> | <span class="check"/> | <span class="x"/>     |
+| Game      | Live player list      | Infraction logging    | Live two-way chat     | Ban Sync              |
+| --------- | --------------------- | --------------------- | --------------------- | --------------------- |
+| Mordhau   | <span class="check"/> | <span class="check"/> | <span class="check"/> | <span class="check"/> |
+| Minecraft | <span class="check"/> | <span class="check"/> | <span class="x"/>     | <span class="check"/> |
 
 <style>
     span.check::after {
