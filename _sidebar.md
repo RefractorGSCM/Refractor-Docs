@@ -19,3 +19,7 @@
     -   [Permissions Overview](/users/permissions?id=permissions-overview)
     -   [Group Management](/users/groups?id=group-management)
     -   [User Management](/users/users?id=user-management)
+
+-   [Development](/#refractor)
+
+    -   [Environment Setup](/development/setup?id=environment-setup)
