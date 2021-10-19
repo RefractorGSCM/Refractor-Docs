@@ -10,7 +10,7 @@
 -   [Installation](/installation/installation?id=installation)
 
     -   [Requirements](/installation/requirements?id=requirements)
-    -   [Docker](/installation/docker?id=installation-docker)
+    -   [Installing with Docker](/installation/docker?id=installation-docker)
     -   [After Install](/installation/post_install?id=after-install)
     -   [Minecraft Setup](/installation/minecraft?id=minecraft-server-setup)
 

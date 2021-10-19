@@ -16,7 +16,7 @@ When you're done, hit Save and the group will be created.
 
 ![Group management screen](/images/group_management.png)
 
-See the [Permissions Overview](/users/permissions?id=permissions-overview) page for more information on permissions.
+See the [Permissions Overview](/access-control/permissions?id=permissions-overview) page for more information on permissions.
 
 ## Group Order
 
