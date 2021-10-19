@@ -7,20 +7,20 @@
     -   [Game Features](/#per-game-features)
     -   [Supporting Other Games](/#supporting-other-games)
 
--   [Installation](/#refractor)
+-   [Installation](/installation/installation?id=installation)
 
     -   [Requirements](/installation/requirements?id=requirements)
     -   [Docker](/installation/docker?id=installation-docker)
     -   [After Install](/installation/post_install?id=after-install)
     -   [Minecraft Setup](/installation/minecraft?id=minecraft-server-setup)
 
--   [User Management](/#refractor)
+-   [Access Control](/access-control/access-control?id=access-control)
 
-    -   [Permissions Overview](/users/permissions?id=permissions-overview)
-    -   [Group Management](/users/groups?id=group-management)
-    -   [User Management](/users/users?id=user-management)
+    -   [Permissions Overview](/access-control/permissions?id=permissions-overview)
+    -   [Group Management](/access-control/groups?id=group-management)
+    -   [User Management](/access-control/users?id=user-management)
 
--   [Development](/#refractor)
+-   [Development](/development/development?id=development)
 
     -   [Environment Setup](/development/setup?id=environment-setup)
     -   [Project Structure](/development/projectstructure?id=project-structure)
