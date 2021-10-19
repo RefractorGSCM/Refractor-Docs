@@ -34,8 +34,42 @@ Refractor is requires access to an SMTP server capable of sending emails. If you
 
 ### Low Memory Notice
 
-For Linux systems with low amounts of memory (under 2GB), it is highly recommended that you set up a swapfile to speed up the installation of Refractor. The steps to do this will differ depending on what operating system you're using.
+For Linux systems with low amounts of memory (under 2GB), it is highly recommended that you set up a swapfile to speed up the installation of Refractor. The steps below are meant for Ubuntu 20.04 LTS, but they should work on most Linux systems. If you're using something other than Ubuntu, you may wish to consult instructions meant specifically for your operating system.
+
+1. **Allocate and set permission of swap file**
+
+```bash
+sudo fallocate -l 2G /swapfile
+```
+
+```bash
+sudo chmod 600 /swapfile
+```
+
+2. **Create swap space using the file**
+
+```bash
+sudo mkswap /swapfile
+```
+
+3. **Activate swap file**
+
+```bash
+sudo swapon /swapfile
+```
+
+4. **Make swapfile persistent**
+
+Open your fstab with `sudo nano /etc/fstab` and add the following line at the bottom of the file:
+
+```
+/swapfile swap swap defaults 0 0
+```
+
+Done!
 
 ### OS Compatibility
 
 Refractor was built for Linux machines. Currently, it has only been tested on Ubuntu 20.04. It is unknown whether or not it functions properly on Windows machines.
+
+> If anyone tries to deploy Refractor on Windows, please update this page to reflect the results!
