@@ -24,7 +24,7 @@ git clone git@github.com:RefractorGSCM/Refractor-Svelte
 
 ### 2. Backend Setup
 
-You must have docker and docker-compose installed to use the built in dev environment.
+You must have Go, docker and docker-compose installed to use the built in dev environment.
 
 To launch the backend services, `cd` into the backend source code you cloned in step 1 and run the following command:
 
@@ -59,7 +59,7 @@ INITIAL_USER_USERNAME=dev
 
 You can customize `ENCRYPTION_KEY`, `INITIAL_USER_EMAIL` and `INITIAL_USER_USERNAME` but you should leave the rest as is.
 
-### Launching the Backend
+### 3. Launching the Backend
 
 You can run the backend with the following command:
 
@@ -69,7 +69,7 @@ go run src/main.go
 
 If you were not presented with any errors, proceed to the next step.
 
-### 3. Refractor-Svelte Setup
+### 4. Refractor-Svelte Setup
 
 Refractor-Svelte uses npm to manage dependencies and run scripts. `cd` into the frontend source code you cloned in step 1 and run `npm install` to install the dependencies.
 
@@ -77,7 +77,7 @@ Once done, you can run `npm run dev` and navigate your browser to `http://localh
 
 Refractor-Svelte uses Vite. Vite allows for blazing fast hot-reloading which greatly speeds up frontend development.
 
-### 4. Logging In
+### 5. Logging In
 
 With the backend and frontend services both running, you should be presented with a login screen upon visiting `http://localhost:3000`.
 
