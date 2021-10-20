@@ -30,3 +30,4 @@
 
     -   [Environment Setup](/development/setup?id=environment-setup)
     -   [Project Structure](/development/projectstructure?id=project-structure)
+    -   [Adding Games](/development/adding-games?id=adding-games)

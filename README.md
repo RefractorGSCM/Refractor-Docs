@@ -7,12 +7,13 @@ Refractor is a game server community management panel written in Go and Svelte. 
 -   **Player infraction logging**: Supports logging of warnings, mutes, kicks and bans. These infractions can then be viewed individually, on a player's summary page, or through the infraction lookup feature.
 -   **Player summary lookup**: Allows users to lookup players to see their history.
 -   **Infraction lookup**: Quickly search for logged player infractions matching your specified criteria.
--   **Real time chat**: Allows users to check in servers without having to log in.
+-   **Real time chat**: Allows users to check in on servers without having to log in.
 -   **Comprehensive permissions management**: Create permission groups, assign users to them and finely tune what they have access to. Permissions can also be overridden on individual servers to give you even more control.
+-   **Chat message flagging**: Admins can set a list of flagged words which when detected in any message will cause the message to be held in the flagged message queue for review.
 
 ## Supported Games
 
-Currently, only Mordhau and Minecraft are supported.
+Currently, Mordhau and Minecraft are supported. Other games can be supported. See [supporting other games](/#supporting-other-games).
 
 <div class="game-images">
     <img src="https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/header/Minecraft_Core-Logo.png" alt="Minecraft logo" />
@@ -61,6 +62,6 @@ Because every game is designed differently, with varying levels of support for t
 
 ## Supporting Other Games
 
-Because of the varying implementations of game server protocols, it is impossible for us to fully support every game. There is some good news, however. Many games implement a protocol called RCON (Remote Console). Any game with RCON support can be at least partially supported by Refractor!
+Because of the varying implementations of game server protocols, it is impossible for us to fully support every game. However, many games implement a protocol called RCON (Remote Console). Any game with RCON support can be at least partially supported by Refractor!
 
 Refractor is modular by design, meaning that adding support for new games can be done quickly and easily. There will be a guide on this process coming soon.
