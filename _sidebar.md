@@ -20,6 +20,12 @@
     -   [Group Management](/access-control/groups?id=group-management)
     -   [User Management](/access-control/users?id=user-management)
 
+-   [Chat](/chat/chat?id=chat)
+
+    -   [Live Chat](/chat/live-chat?id=live-chat)
+    -   [Flagged Words](/chat/flagged-words?id=flagged-words)
+    -   [Message Moderation](/chat/message-moderation?id=flagged-message-moderation)
+
 -   [Development](/development/development?id=development)
 
     -   [Environment Setup](/development/setup?id=environment-setup)
