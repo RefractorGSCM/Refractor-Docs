@@ -1,5 +1,7 @@
 # Refractor
 
+![Refractor home page](/images/refractor.png)
+
 Refractor is a game server community management panel written in Go and Svelte. Refractor makes moderating game servers easier by improving the speed, consistency, and coordination of game server moderation with the following features:
 
 -   **Support for multiple servers and multiple users**: Get started quickly! Simple add your servers and create accounts for your staff team.
@@ -8,7 +10,9 @@ Refractor is a game server community management panel written in Go and Svelte. 
 -   **Player summary lookup**: Allows users to lookup players to see their history.
 -   **Infraction lookup**: Quickly search for logged player infractions matching your specified criteria.
 -   **Real time chat**: Allows users to check in on servers without having to log in.
--   **Comprehensive permissions management**: Create permission groups, assign users to them and finely tune what they have access to. Permissions can also be overridden on individual servers to give you even more control.
+-   **Ban Synchronization**: Synchronizes player bans across multiple servers on the same platform.
+-   **Advanced access control**: Create permission groups, assign users to them and fine tune what they have access to. Permissions can even be overridden on individual servers to give you even more control!
+-   **Chat message logging**: Chat messages sent in supported games are automatically logged for future reference.
 -   **Chat message flagging**: Admins can set a list of flagged words which when detected in any message will cause the message to be held in the flagged message queue for review.
 
 ## Supported Games

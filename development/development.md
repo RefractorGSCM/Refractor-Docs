@@ -8,3 +8,4 @@ See the below sections for some development info:
 
 -   [Environment Setup](/development/setup?id=environment-setup)
 -   [Project Structure](/development/projectstructure?id=project-structure)
+-   [Adding Games](/development/adding-games?id=adding-games)
