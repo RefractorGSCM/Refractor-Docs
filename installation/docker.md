@@ -13,7 +13,7 @@ The Refractor source code is stored in a Git version control system. To clone th
 Clone the Refractor backend source code with the following command:
 
 ```bash
-git clone git@github.com:RefractorGSCM/Refractor.git
+git clone https://github.com/RefractorGSCM/Refractor
 ```
 
 And then enter the directory with:
