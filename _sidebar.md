@@ -11,7 +11,7 @@
 
     -   [Requirements](/installation/requirements?id=requirements)
     -   [Installing with Docker](/installation/docker?id=installation-docker)
-    -   [After Install](/installation/post_install?id=after-install)
+    -   [Post-Install](/installation/post_install?id=post-install)
     -   [Minecraft Setup](/installation/minecraft?id=minecraft-server-setup)
 
 -   [Access Control](/access-control/access-control?id=access-control)

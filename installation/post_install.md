@@ -1,4 +1,4 @@
-# After Install
+# Post-Install
 
 If your deployment of Refractor was successful, you should see a login screen when you navigate to your domain name. If you see this, congratulations! Refractor was deployed successfully.
 
@@ -28,4 +28,4 @@ Congratulations! Refractor is now moderating your first server. If you have othe
 
 ## Note for Minecraft Servers
 
-If you added or will add a Minecraft server, check the [Minecraft Setup page]() for steps.
+If you added or will add a Minecraft server, check the [Minecraft Setup page](/installation/minecraft?id=minecraft-server-setup) for steps.
