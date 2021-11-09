@@ -20,6 +20,10 @@
     -   [Group Management](/access-control/groups?id=group-management)
     -   [User Management](/access-control/users?id=user-management)
 
+-   [Infractions](/infractions/infractions?id=infractions)
+
+    -   [Command Events](/infractions/commands?id=infraction-event-commands)
+
 -   [Chat](/chat/chat?id=chat)
 
     -   [Live Chat](/chat/live-chat?id=live-chat)
