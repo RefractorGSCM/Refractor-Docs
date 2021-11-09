@@ -10,17 +10,15 @@ As Refractor has ban synchronization, it must be able to execute ban commands on
 
 Because of this, you must have a plugin which adds support for temporary bans. For example, [EssentialsX](https://www.spigotmc.org/resources/essentialsx.9089).
 
-Once you have a tempban command ready for use, you must configure Refractor to use it. You can do this by navigating to `Admin Settings > Games > Minecraft` on the Refractor dashboard. You should see a text field labeled Ban Command pattern.
+Once you have a tempban command ready for use, you must configure Refractor to use it. You can do this by navigating to `Admin Settings > Games > Minecraft` on the Refractor dashboard. From here, you can configure the ban commands to be run on any of the infraction events (create, update, delete and repeal).
 
-You must now configure this to match the correct usage of your ban plugin's ban command. For example, if you are using EssentialsX your ban command pattern should be as follows:
+For example, if you're using EssentialsX you would want to set the ban creation command to the following:
 
 ```
 tempban {{PLAYER_NAME}} {{DURATION}}m {{REASON}}
 ```
 
-Note the `m` after `{{DURATION}}`. This is because Refractor records durations in minutes. The `m` denotes minutes.
-
-Once you have this setup, you can test it out by logging a ban for yourself on Refractor and then attempting to join the server. After a few seconds, it should ban you for the correct period of time.
+Note the `m` after `{{DURATION}}`. This is because Refractor records durations in minutes. The `m` denotes minutes in the EssentialsX ban command.
 
 ![Minecraft settings page](/images/minecraft_settings.png)
 
