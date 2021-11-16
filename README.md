@@ -10,7 +10,8 @@ Refractor is a game server community management panel written in Go and Svelte. 
 -   **Player summary lookup**: Allows users to lookup players to see their history.
 -   **Infraction lookup**: Quickly search for logged player infractions matching your specified criteria.
 -   **Real time chat**: Allows users to check in on servers without having to log in.
--   **Ban Synchronization**: Synchronizes player bans across multiple servers on the same platform.
+-   **Infraction Sync**: Synchronizes player bans and mutes across servers of the same game.
+-   **Infraction Command Hooks**: Configure commands to be run on various infraction actions.
 -   **Advanced access control**: Create permission groups, assign users to them and fine tune what they have access to. Permissions can even be overridden on individual servers to give you even more control!
 -   **Chat message logging**: Chat messages sent in supported games are automatically logged for future reference.
 -   **Chat message flagging**: Admins can set a list of flagged words which when detected in any message will cause the message to be held in the flagged message queue for review.
